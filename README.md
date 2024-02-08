@@ -13,7 +13,8 @@ checkLength() to check min and max length
 checkEmail() to validate email with regex
 checkPasswordsMatch() to match confirm password
 
-## Preview
+## Original preview
+<img src="01_preview.png" alt="Original solution preview">
 
 
 
