@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>01 - Form Validator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <form id="form" class="form">
-            <h2>Register With Us</h2>
-            <div class="form-control">
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter username">
-                <small>Error message</small>
-            </div>
-            <div class="form-control">
-                <label for="email">E-mail</label>
-                <input type="text" id="email" placeholder="Enter e-mail">
-                <small>Error message</small>
-            </div>
-            <div class="form-control">
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter password">
-                <small>Error message</small>
-            </div>
-            <div class="form-control">
-                <label for="password2">Confirm Password</label>
-                <input type="password" id="password2" placeholder="Enter password again">
-                <small>Error message</small>
-            </div>
-            <button>Submit</button>
-        </form>
-    </div>
-    <script src="script.js"></script>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+      <!--=============== MY CSS ===============-->
+      <link rel="stylesheet" href="style.css">
+      <!--=============== TITLE ===============-->
+      <title>01 - Form Validator | Bednarski Petr</title>
+   </head>
+   <body>
+      <div class="signup">
+         <div class="container">
+            <form id="form" class="form">
+               <h2>Register With Us</h2>
+               <div class="form-control-box">
+                  <i class="ri-user-3-line form__icon"></i>
+                  <div class="form-control">
+                     <input type="text" id="username" placeholder=" ">
+                     <label for="username">Username</label>
+                     <small>Error message</small>
+                  </div>
+               </div>
+               <div class="form-control-box">
+                  <i class="ri-mail-line form__icon"></i>
+                  <div class="form-control">
+                     <input type="text" id="email" placeholder=" ">
+                     <label for="email">E-mail</label>
+                     <small>Error message</small>
+                  </div>
+               </div>
+               <div class="form-control-box">
+                  <i class="ri-lock-2-line form__icon"></i>
+                  <div class="form-control">
+                     <input type="password" id="password" placeholder=" ">
+                     <label for="password">Password</label>
+                     <small>Error message</small>
+                     <i class="ri-eye-off-line form__eye" id="form-eye"></i>
+                  </div>
+               </div>
+               <div class="form-control-box">
+                  <i class="ri-lock-2-line form__icon"></i>
+                  <div class="form-control">
+                     <input type="password" id="password2" placeholder=" ">
+                     <label for="password2">Confirm Password</label>
+                     <small>Error message</small>
+                     <i class="ri-eye-off-line form__eye" id="form-eye2"></i>
+                  </div>
+               </div>
+               <button>Submit</button>
+            </form>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
 </html>
