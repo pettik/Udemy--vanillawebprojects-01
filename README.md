@@ -30,3 +30,8 @@ Simple client side form validation. Check **required**, **length**, **email** an
 - When user clicks to input, placeholder (label) moves up
 - Button hover effect
 - Password eye icon changes when text/password is visible
+
+
+# Author
+Website - [Petr Bednarski](https://github.com/pettik)
+Frontend Mentor - [@pettik](https://www.frontendmentor.io/profile/pettik)
