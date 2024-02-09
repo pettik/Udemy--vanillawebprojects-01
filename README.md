@@ -18,4 +18,15 @@ Simple client side form validation. Check **required**, **length**, **email** an
 
 
 
-## My solution
+## My solution preview
+<img src="my-solution-preview.png" alt="My solution preview">
+
+## My solution ACTIVE states preview
+<img src="my-solution-active-preview.png" alt="My solution active states preview">
+
+
+## My solution specifications
+- Responsive design
+- When user clicks to input, placeholder (label) moves up
+- Button hover effect
+- Password eye icon changes when text/password is visible
