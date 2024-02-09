@@ -33,5 +33,5 @@ Simple client side form validation. Check **required**, **length**, **email** an
 
 
 # Author
-Website - [Petr Bednarski](https://github.com/pettik)
+Website - [Petr Bednarski](https://github.com/pettik) <br>
 Frontend Mentor - [@pettik](https://www.frontendmentor.io/profile/pettik)
